@@ -1,0 +1,17 @@
+= CORS test
+
+Simple way to test CORS.
+
+Based on https://medium.com/pareture/simple-local-cors-test-tool-544f108311c5[Nicks CORS Test], so go ahead to read more about it.
+
+Code is almost the same as the code by Nick, except I added code to set cookies for servers that need authentication.
+
+== Usage
+
+* Edit link:cors-test.js[cors-test.js].
+* Change `url` to the server you want to test.
+* If the server requires authentication:
+** authenticate with the server.
+** add the session cookie to the code.
+* Open link:index.html[index.html] with your browser.
+* Check the console to see if CORS is enabled or not.
